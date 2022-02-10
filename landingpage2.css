@@ -1,0 +1,128 @@
+html, .wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  flex-wrap: wrap;
+  margin: 0vh;
+  padding: 0vh;
+}
+.head {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-bottom: 20px;
+}
+.logo {
+    color:#E5E7EB;
+    font-size: 24px;
+    display: flex;
+    padding-left: 20%;
+}
+.nav {
+    color:#E5E7EB;
+    font-size: 18px;
+    display: flex;
+    padding-right: 20%;
+}
+.second {
+    color:white;
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 20px;
+}
+.image {
+  max-height: 300px;
+  max-width: 400px;
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  margin-left: 300px;
+}
+.third {
+    color:#1F2937;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.fourth {
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.fifth {
+    color: #1F2937;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.signup {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foot {
+    color:#E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:link {
+  color:#E5E7EB;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: rgb(209, 116, 209);
+}
+.btn {
+    text-align:center;
+    color:#E5E7EB;
+    background-color: #3882f6;
+    border:1px solid #E5E7EB;
+    margin: 20px;
+    padding: 5px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border: 3px solid #3882f6;
+  border-radius: 3px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.btn2 {
+  align-items: flex-start;
+  justify-content: left;
+  display: flex;
+}
